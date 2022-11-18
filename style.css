@@ -1,38 +1,18 @@
-body
-{
-    background-position: center;
+.heading{
+    font-size: 15px;
+    width: 100%;
+    margin: 0px;
+}
+.note{
+    font-size: 15px;
+    color: rgb(243, 21, 21);
+}
+body{
     background-size: cover;
 }
-.heading{
-    width:100%;
-    text-align: left;
-    margin-bottom: 5px;
-}
-.heading h3{
-    display: inline;
-    font-size: 22px;
-}
-.heading button{
-    float: right;
-    border: 1px solid white;
-}
-.status_label{
-    background-color: white;
-}
-.footer{
-    background-color: grey;
-    color: white;
-    line-height: 2;
-    margin-bottom: 0px;
-    bottom: 0px;
-    position: sticky;
-    width: 100%;
-}
-.modal-body{
-    text-align: left;
-}
 canvas{
-    border-radius: 5x;
-    box-shadow: 3px 3px 3px white;
-    border: 2px solid white;
+    border:5px solid white;
+    box-shadow: 5px,5px,5px gray;
+    margin-top: 150;
+    padding: center;
 }
